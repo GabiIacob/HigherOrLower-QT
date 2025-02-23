@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: linear-gradient(to right, #FF5733, #FFBD33);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>20</y>
+      <width>301</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #34495e; 
+    background-color: #ecf0f1; 
+    border: 2px solid #7f8c8d; 
+    border-radius: 10px; 
+    padding: 5px;
+    text-align: center; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Who's BIGGER?</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Country1">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>140</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #34495e; 
+    background-color: #ecf0f1; 
+    border: 2px solid #7f8c8d; 
+    border-radius: 10px; 
+    padding: 5px; 
+    text-align: center; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Tara1</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Country2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>140</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #34495e; 
+    background-color: #ecf0f1; 
+    border: 2px solid #7f8c8d; 
+    border-radius: 10px; 
+    padding: 5px; 
+    text-align: center; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Tara2</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ConfirmButton">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>280</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #2ecc71; 
+    color: white; 
+    border: 2px solid #27ae60; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    padding: 10px 20px; 
+}
+
+QPushButton:hover {
+    background-color: #27ae60;  
+}
+
+QPushButton:pressed {
+    background-color: #1e8449; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string>SEND</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>300</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox1">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>240</y>
+      <width>78</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QCheckBox {
+    spacing: 10px;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+QCheckBox::indicator {
+    width: 20px; 
+    height: 20px;
+}
+
+QCheckBox::indicator:unchecked {
+    background-color: #ecf0f1;
+    border: 2px solid #7f8c8d;
+    border-radius: 5px;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #27ae60; 
+    border: 2px solid #1e8449;
+    border-radius: 5px;
+}
+
+QCheckBox::indicator:unchecked:hover {
+    background-color: #bdc3c7; 
+}
+
+QCheckBox::indicator:checked:hover {
+    background-color: #2ecc71; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox2">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>230</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QCheckBox {
+    spacing: 10px;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+QCheckBox::indicator {
+    width: 20px; 
+    height: 20px;
+}
+
+QCheckBox::indicator:unchecked {
+    background-color: #ecf0f1;
+    border: 2px solid #7f8c8d;
+    border-radius: 5px;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #27ae60; 
+    border: 2px solid #1e8449;
+    border-radius: 5px;
+}
+
+QCheckBox::indicator:unchecked:hover {
+    background-color: #bdc3c7; 
+}
+
+QCheckBox::indicator:checked:hover {
+    background-color: #2ecc71; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Neimportant">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>350</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #34495e; 
+    background-color: #ecf0f1; 
+    border: 2px solid #7f8c8d; 
+    border-radius: 10px; 
+    padding: 5px; 
+    text-align: center; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Nivel:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LabelNivel">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>350</y>
+      <width>51</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #34495e; 
+    background-color: #ecf0f1; 
+    border: 2px solid #7f8c8d; 
+    border-radius: 10px; 
+    padding: 5px; 
+    text-align: center; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rerollLabel1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #34495e; 
+    background-color: #ecf0f1; 
+    border: 2px solid #7f8c8d; 
+    border-radius: 10px; 
+    padding: 5px; 
+    text-align: center; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Re-rool remaining:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rerollLabel2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>310</y>
+      <width>31</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #34495e; 
+    background-color: #ecf0f1; 
+    border: 2px solid #7f8c8d; 
+    border-radius: 10px; 
+    padding: 5px; 
+    text-align: center; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rerollButton">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>360</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Re-rool</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
